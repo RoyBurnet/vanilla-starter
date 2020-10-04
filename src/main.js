@@ -1,4 +1,4 @@
-import { bro } from './bro'
-import './style/main.scss'
+import { welcomeText } from './welcomeText';
+import './style/main.scss';
 
-console.log(bro('dude'))
+document.querySelector('.welcome-text').innerHTML = welcomeText('Fes Internet');

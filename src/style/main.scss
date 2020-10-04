@@ -1,5 +1,9 @@
-$bg: orange;
+$bg: blue;
+$font-color: white;
+$font-size: 24px;
 
 body {
-    background: $bg
+    background: $bg;
+    color: $font-color;
+    font-size: $font-size;
   }
